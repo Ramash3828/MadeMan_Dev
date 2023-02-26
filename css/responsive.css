@@ -1,0 +1,262 @@
+@media (max-width: 768px) {
+	.content-width {
+		width: 90%;
+	}
+	/* Hero section start */
+	.hero__header {
+		gap: 30px;
+	}
+	.hero__logo {
+		width: 47%;
+	}
+	.hero__back-img {
+		width: 100%;
+		object-fit: fill;
+	}
+	.hero__content {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		gap: 0px;
+	}
+	.decleared {
+		display: grid;
+	}
+	.hero__image--one {
+		display: none;
+	}
+	.hero__image--two {
+		display: block;
+	}
+	.hero__image-box {
+		margin: 0;
+	}
+	.trail__title {
+		margin-top: 24px;
+		font-size: 28px;
+	}
+	.trail__btn {
+		width: 100%;
+	}
+	.trail__instruction {
+		/* max-width: 384px; */
+
+		display: block;
+	}
+	.trail__purpose {
+		height: auto;
+	}
+	.trail__tooltip {
+		width: 100%;
+		left: -102px;
+	}
+	.trail__tooltip-item--last::before {
+		left: 79px;
+	}
+	.trail__instruction-img {
+		margin-left: 0px;
+	}
+	.trail__instruction-box {
+		justify-content: center;
+	}
+
+	/* Hero section end */
+	/* Brand logo section start */
+	.brand {
+		padding: 50px 0;
+		width: 100%;
+	}
+	/* .brand__logo-box {
+		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 50px;
+	} */
+
+	.brand__logo-box {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		justify-content: space-between;
+		align-items: center;
+		grid-column-gap: 30px;
+	}
+	.brand__img-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 30px;
+	}
+	.brand__logo-box {
+		padding: 0;
+	}
+	img.brand__img {
+		width: 100%;
+	}
+	/* Brand logo section end */
+	/* Benefite section start */
+	.benifits {
+		margin: 40px 0;
+	}
+	.benifits__content {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		padding: 0;
+	}
+
+	.benifits__img {
+		width: 100%;
+	}
+	.benifits__item-text {
+		font-size: 11px;
+	}
+	.benifits__text--two {
+		margin-bottom: 0px;
+	}
+
+	/* Benefite section end */
+	/* Skin type section start */
+	.questions {
+		padding-top: 40px;
+		padding-bottom: 0;
+	}
+	.benifits__title {
+		font-size: 37px;
+	}
+	.benifits__text--two,
+	.benifits__text--one {
+		font-size: 16px;
+	}
+	.questions__text {
+		font-size: 16px;
+	}
+
+	.review-box {
+		position: initial;
+		width: 90%;
+		margin: 25px auto;
+	}
+
+	.questions__content-right {
+		width: 90%;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+
+	.skin-type__title {
+		font-size: 28px;
+	}
+
+	.skin-type__text {
+		font-size: 16px;
+	}
+	.skin-type__content-box {
+		flex-direction: column;
+		gap: 27px;
+	}
+	img.skin-type__img {
+		width: 100%;
+	}
+	.skin-type__content-text {
+		font-size: 15px;
+	}
+
+	/* .skin-type__img-one {
+		width: 54%;
+	}
+	.skin-type__img-two {
+		position: absolute;
+		top: 24px;
+		left: 43%;
+	} */
+	.skin-type__content-text::before {
+		left: 0;
+		top: -24px;
+	}
+	.accordion {
+		flex-wrap: wrap;
+		flex-direction: column;
+		gap: 30px;
+	}
+	.questions__content {
+		flex-direction: column;
+		row-gap: 0px;
+	}
+	.questions__content-left {
+		width: 100%;
+	}
+	.questions__content-left-img {
+		width: 100%;
+	}
+	.review-box,
+	.review-box-two {
+		display: none;
+	}
+	.review-box-footer {
+		display: block;
+	}
+	/* Skin type section end */
+	/* FAQ section star */
+	.faq {
+		padding: 48px 0 60px;
+	}
+	.faq__accordion-box {
+		max-width: 100%;
+	}
+	.faq__btn {
+		display: none;
+	}
+	/* FAQ section end */
+	/* Hero-content section start */
+	.hero__content--two {
+		row-gap: 0;
+	}
+	.trial-second {
+		margin-top: 0;
+		padding-top: 0;
+		padding-bottom: 48px;
+	}
+	.trail__text {
+		font-size: 15px;
+	}
+	.hero__image-second {
+		width: 100%;
+		margin-top: -22px;
+	}
+	/* Hero-content section end */
+	/* Footer section start */
+	.footer__top {
+		width: 90%;
+		margin: auto;
+	}
+	.footer__title {
+		font-size: 35px;
+		line-height: 46px;
+	}
+	.footer__action {
+		width: 100%;
+	}
+
+	.footer__content {
+		padding: 100px 0px 80px;
+		grid-template-columns: 1fr;
+		gap: 0;
+	}
+	.footer__column-title {
+		font-weight: 700;
+		font-size: 15px;
+		line-height: 18px;
+		letter-spacing: -0.16px;
+		color: #ffffff;
+		padding: 15px 0;
+		border-bottom: 1px solid #fff;
+	}
+	.footer__column:last-child {
+		display: none;
+	}
+
+	.footer__item {
+		display: none;
+	}
+	.footer__column:last-child {
+		justify-self: flex-start;
+	}
+	/* Footer section end */
+}
